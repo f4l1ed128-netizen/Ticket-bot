@@ -1,0 +1,69 @@
+{
+  "embeds": {
+    "openTicket": {
+      "title": "Ouvrir un ticket",
+      "description": "Cliquez sur le bouton ci-dessous pour ouvrir un ticket.",
+      "footer": {
+        "text": "discord.gg/uoaio",
+        "iconUrl": ""
+      }
+    },
+    "ticketOpened": {
+      "title": "Ticket CATEGORYNAME",
+      "description": "Votre ticket a été ouvert. Un membre du staff va vous répondre dans les plus brefs délais.",
+      "footer": {
+        "text": "discord.gg/uoaio",
+        "iconUrl": ""
+      }
+    },
+    "ticketClosed": {
+      "title": "Ticket fermé",
+      "description": "Le ticket a été fermé par CLOSERNAME avec comme raison: `REASON`"
+    },
+    "ticketClosedDM": {
+      "title": "Ticket fermé",
+      "description": "Le ticket n°TICKETCOUNT a été fermé par CLOSERNAME avec comme raison: `REASON`",
+      "footer": {
+        "text": "discord.gg/uoaio",
+        "iconUrl": ""
+      }
+    }
+  },
+  "modals": {
+    "reasonTicketOpen": {
+      "title": "Ouvrir un ticket",
+      "label": "La raison de votre ticket",
+      "placeholder": "Veuillez entrer la raison de votre ticket"
+    },
+    "reasonTicketClose": {
+      "title": "Fermer un ticket",
+      "label": "La raison de la fermeture du ticket",
+      "placeholder": "Veuillez entrer la raison de pourquoi vous fermez le ticket"
+    }
+  },
+  "buttons": {
+    "close": {
+      "label": "Fermer le ticket",
+      "emoji": "🔒"
+    },
+    "claim": {
+      "label": "Claim",
+      "emoji": "🙋"
+    }
+  },
+  "ticketOpenedMessage": "Ticket ouvert! TICKETCHANNEL",
+  "ticketOnlyClaimableByStaff": "Seul les staffs peuvent claim un ticket!",
+  "ticketAlreadyClaimed": "Le ticket est déjà claim!",
+  "ticketClaimedMessage": "> Ticket claim par USER",
+  "ticketOnlyClosableByStaff": "Seul les staff peuvent fermer le ticket!",
+  "ticketAlreadyClosed": "Ticket déjà fermé!",
+  "ticketLimitReached": "Vous pouvez seulement avoir TICKETLIMIT ticket ouvert!",
+
+  "other": {
+    "openTicketButtonMSG": "Ouvrir un ticket",
+    "deleteTicketButtonMSG": "Supprimer un ticket",
+    "selectTicketTypePlaceholder": "Sélectionnez le type de ticket",
+    "claimedBy": "**Claim par**: USER",
+    "noReasonGiven": "Aucune raison donnée"
+  }
+}
