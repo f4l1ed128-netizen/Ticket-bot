@@ -22,7 +22,7 @@
     pingRoleWhenOpened: false,
     roleToPingWhenOpenedId: "", // The role to ping when a ticket is opened
     logs: true,
-    logsChannelId: "", // The id of the channel where the logs will be sent
+    logsChannelId: "1542605161153957918", // The id of the channel where the logs will be sent
     claimButton: true,
     whoCanCloseTicket: "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
     closeButton: true, // If false the ticket can be closed only by doing /closes
