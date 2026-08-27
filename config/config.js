@@ -3,7 +3,7 @@
     guildId: "1541711551063527434", // The id of the discord server
     mainColor: "ff0000", // The hex color of the embeds by default
     lang: "main", // If you want to set english please set "main"
-    openTicketChannelId: "1541711551919038487", // The id of the channel where the message to create a ticket will be sent
+    openTicketChannelId: "1542476831935045632", // The id of the channel where the message to create a ticket will be sent
     ticketTypes: [ // You have a limit of 25 types (the limit of Discord)
       {
         codeName: "category-one", // The name need to be in lowercase
