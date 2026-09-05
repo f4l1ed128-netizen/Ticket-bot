@@ -1,9 +1,9 @@
   module.exports = {
-    clientId: "1540784793015549992", // The id of the discord bot
-    guildId: "1541711551063527434", // The id of the discord server
+    clientId: "1545619986901504100", // The id of the discord bot
+    guildId: "1545620208935374931", // The id of the discord server
     mainColor: "ff0000", // The hex color of the embeds by default
     lang: "main", // If you want to set english please set "main"
-    openTicketChannelId: "1542476831935045632", // The id of the channel where the message to create a ticket will be sent
+    openTicketChannelId: "1545620209866637324", // The id of the channel where the message to create a ticket will be sent
     ticketTypes: [ // You have a limit of 25 types (the limit of Discord)
       {
         codeName: "category-one", // The name need to be in lowercase
