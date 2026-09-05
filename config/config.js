@@ -17,7 +17,7 @@
     ],
     ticketNameOption: "Ticket-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
     rolesWhoHaveAccessToTheTickets: [
-      "1541712894402494475",
+      "1545628470501969990",
     ], // Roles who can access to the tickets
     pingRoleWhenOpened: false,
     roleToPingWhenOpenedId: "", // The role to ping when a ticket is opened
