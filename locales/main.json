@@ -22,7 +22,7 @@
     },
     "ticketClosedDM": {
       "title": "Ticket closed",
-      "description": "التكت الأ��ية °TICKETCOUNT تم أغلاقها من قبل CLOSERNAME للسبب الأتي : `REASON`",
+      "description": "التكت الأتية °TICKETCOUNT تم أغلاقها من قبل CLOSERNAME للسبب الأتي : `REASON`",
       "footer": {
         "text": "",
         "iconUrl": ""
