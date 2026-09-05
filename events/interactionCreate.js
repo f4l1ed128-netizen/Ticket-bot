@@ -109,16 +109,6 @@ module.exports = {
           }
         };
 
-        if (client.config.claimButton) {
-          row.addComponents(
-            new client.discord.ButtonBuilder()
-              .setCustomId('claim')
-              .setLabel(client.locales.buttons.claim.label)
-              .setEmoji(client.locales.buttons.claim.emoji)
-              .setStyle(client.discord.ButtonStyle.Primary),
-          );
-        };
-
         const body = {
           embeds: [ticketOpenedEmbed],
           content: `<@${interaction.user.id}> ${client.config.pingRoleWhenOpened ? `<@&${client.config.roleToPingWhenOpenedId}>` : ''}`,
@@ -191,11 +181,6 @@ module.exports = {
           ephemeral: true,
           components: [row]
         }).catch(e => console.log(e));
-      };
-
-      if (interaction.customId === "claim") {
-        const {claim} = require('../utils/claim.js');
-        claim(interaction, client);
       };
 
       if (interaction.customId === "close") {
